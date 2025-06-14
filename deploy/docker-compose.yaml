@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   postgres:
-    image: yaltuzz/postgres
+    image: ${POSTGRES_IMAGE}
     environment:
       POSTGRES_USER: admin
       POSTGRES_PASSWORD: password
